@@ -1,0 +1,123 @@
+2025-04-13 11:51:33.422 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysAttractionsMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_attractions  ( id, name, price, introduce, content, num, real_name, images, open, time,  create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+; Data truncation: Data too long for column 'open' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1]
+2025-04-13 11:51:43.938 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysAttractionsMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_attractions  ( id, name, price, introduce, content, num, real_name, images, open, time,  create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+; Data truncation: Data too long for column 'open' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1]
+2025-04-13 12:14:23.216 [http-nio-8080-exec-88] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:14:46.267 [http-nio-8080-exec-95] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:15:00.443 [http-nio-8080-exec-96] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:15:13.992 [http-nio-8080-exec-98] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:15:32.172 [http-nio-8080-exec-99] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:15:32.381 [http-nio-8080-exec-84] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:15:32.570 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:15:33.075 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:15:33.240 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x88Da...' for column 'content' at row 1]
+2025-04-13 12:17:09.432 [http-nio-8080-exec-11] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89\xF0\x9F...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89\xF0\x9F...' for column 'content' at row 1]
+2025-04-13 12:17:15.802 [http-nio-8080-exec-12] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89\xF0\x9F...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x91\x89\xF0\x9F...' for column 'content' at row 1]
+2025-04-13 12:32:10.367 [http-nio-8080-exec-66] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x93\x8D\xF0\x9D...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_line  ( id, temperature, geography, name, content, introduce, images, create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x93\x8D\xF0\x9D...' for column 'content' at row 1]
+2025-04-13 12:34:34.782 [http-nio-8080-exec-65] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x93\x8D\xF0\x9D...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_line  ( id, temperature, geography, name, content, introduce, images, create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x93\x8D\xF0\x9D...' for column 'content' at row 1]
+2025-04-13 12:34:50.937 [http-nio-8080-exec-71] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x93\x8D\xF0\x9D...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_line  ( id, temperature, geography, name, content, introduce, images, create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x93\x8D\xF0\x9D...' for column 'content' at row 1]
+2025-04-13 17:48:11.024 [http-nio-8080-exec-92] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\xB4\xE3\x80...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_line  ( id, temperature, geography, name, content, introduce, images, create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\xB4\xE3\x80...' for column 'content' at row 1]
+2025-04-13 17:56:08.022 [http-nio-8080-exec-72] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x8A\xE7\x9A...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_line  ( id, temperature, geography, name, content, introduce, images, create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x8A\xE7\x9A...' for column 'content' at row 1]
+2025-04-13 17:59:42.357 [http-nio-8080-exec-100] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x8A\xE7\x9A...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysLineMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_line  SET temperature=?, geography=?, name=?, content=?, introduce=?, images=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x8C\x8A\xE7\x9A...' for column 'content' at row 1]
+2025-04-13 18:30:02.774 [http-nio-8080-exec-38] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\xAB *...' for column 'content' at row 1
+### The error may involve com.shanzhu.tourism.mapper.SysForumMapper.updateById-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE sys_forum  SET title=?, content=?, create_by=?, create_time=?, update_by=?, update_time=?  WHERE id=?
+### Cause: java.sql.SQLException: Incorrect string value: '\xF0\x9F\x9A\xAB *...' for column 'content' at row 1]
+2025-04-13 18:44:25.277 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1:6379]: Connection refused: no further information: /127.0.0.1:6379
